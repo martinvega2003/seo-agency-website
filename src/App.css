@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  transition: all 0.1s linear;
+}
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+
+  .subheading {
+    text-align: center !important;
+    font-size: 20px !important;
+  }
+
+  /* HEADER-STICKY */
+
+  .header-sticky .links {
+    display: none !important;
+  }
+
+  /* PARTE DEL HERO */
+
+  .header {
+    min-height: 650px !important;
+  }
+
+  .hero .heading {
+    font-size: 38px !important;
+  }
+
+  .hero .subheading {
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+
+  .hero .cta-btn {
+    position: static !important;
+  }
+
+  .hero .cta-btn .btn-outline {
+    display: none !important;
+  }
+
+  /* PARTE DEL MENU DESPLEGABLE */
+
+  .hero .cta-menu {
+    top: -100% !important;
+    height: 100vh !important;
+  }
+
+  .hero .cta-menu.open {
+    top: 0px !important;
+  }
+
+  .hero .cta-menu h2 {
+    width: 80% !important;
+    font-size: 20px !important;
+  }
+
+  .hero .cta-menu h4 {
+    width: 85% !important;
+    font-size: 16px !important;
+  }
+
+  .hero .cta-menu .form {
+    width: 80% !important;
+  }
+
+  .hero .cta-menu .form span {
+    font-size: 18px !important;
+  }
+
+  /* MEDIA QUERYS PARALA SECCION DE PROCESS */
+
+  .section-white .heading {
+    margin-left: 10px !important;
+  }
+
+  .s-container .img-container {
+    margin-top: -100px !important;
+  }
+
+  .s-container .btn-container {
+    min-width: 90% !important;
+  }
+
+  .s-info-container {
+    min-width: 90% !important;
+    flex-direction: column !important;
+  }
+
+  .s-info-container img {
+    margin-right: 0 !important;
+  }
+
+  .s-info-container .text-container {
+    align-items: center !important;
+  }
+
+  .s-two .text-container .text {
+    text-align: center !important;
+  }
+
+  /* SECCION DE BENEFITS */
+
+  .s-container {
+    flex-direction: column !important;
+  }
+
+  .s-container .heading {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .s-container .subheading {
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+
+  .s-one .s-left {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    align-items: center !important;
+  }
+
+  .s-one .btns-container {
+    min-width: 100% !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    margin-bottom: 20px !important;
+  }
+
+  .s-one .service-btn {
+    min-width: 100px !important;
+    width: 100px !important;
+    max-width: 100px !important;
+    font-size: 12px !important;
+    border: 2px solid black !important;
+    margin: 5px !important;
+  }
+
+  .s-one .service-btn div {
+    display: none !important;
+  }
+
+  .s-one .s-right {
+    width: 90% !important;
+    margin-top: 20px !important;
+  }
+
+  /* SECCION DE FAQS */
+
+  .s-block {
+    width: 40% !important;
+  }
+
+  /* SECCION DE ABOUT */
+
+  .about .first-block {
+    flex-direction: column !important;
+  }
+
+  .about .about-left {
+    min-width: 90% !important;
+  }
+
+  .about .about-right {
+    min-width: 90% !important;
+  }
+
+  .about .field-box {
+    font-size: 10px !important;
+    padding: 15px !important;
+    margin: 10px !important;
+  }
+
+  /* FOOTER */
+
+  .final-cta .subheading {
+    min-width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* CLASES COMUNES */
+
+  .heading {
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+
+  .subheading {
+    text-align: center !important;
+    font-size: 20px !important;
+  }
+
+  /* HEADER-STICKY */
+
+  .header-sticky .links {
+    display: none !important;
+  }
+
+  /* PARTE DEL HERO */
+  .hero .heading {
+    font-size: 38px !important;
+  }
+
+  .hero .subheading {
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+
+  .hero .cta-btn {
+    position: static !important;
+  }
+
+  .hero .cta-btn .btn-outline {
+    display: none !important;
+  }
+
+  /* PARTE DEL MENU DESPLEGABLE */
+
+  .hero .cta-menu {
+    top: -100% !important;
+    height: 100vh !important;
+  }
+
+  .hero .cta-menu.open {
+    top: 0px !important;
+  }
+
+  .hero .cta-menu h2 {
+    width: 80% !important;
+    font-size: 20px !important;
+  }
+
+  .hero .cta-menu h4 {
+    width: 85% !important;
+    font-size: 16px !important;
+  }
+
+  .hero .cta-menu .form {
+    width: 80% !important;
+  }
+
+  .hero .cta-menu .form span {
+    font-size: 18px !important;
+  }
+
+  /* MEDIA QUERYS PARALA SECCION DE PROCESS */
+
+  .section-white .heading {
+    margin-left: 10px !important;
+  }
+
+  .s-container .img-container {
+    margin-top: -100px !important;
+  }
+
+  .s-container .btn-container {
+    min-width: 90% !important;
+  }
+
+  .s-info-container {
+    min-width: 90% !important;
+    flex-direction: column !important;
+  }
+
+  .s-info-container img {
+    margin-right: 0 !important;
+  }
+
+  .s-info-container .text-container {
+    align-items: center !important;
+  }
+
+  .s-two .text-container .text {
+    text-align: center !important;
+  }
+
+  /* SECCION DE BENEFITS */
+
+  .s-container {
+    flex-direction: column !important;
+  }
+
+  .s-container .heading {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .s-container .subheading {
+    font-size: 20px !important;
+    text-align: center !important;
+  }
+
+  .s-one .s-left {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    align-items: center !important;
+  }
+
+  .s-one .btns-container {
+    min-width: 100% !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 20px !important;
+  }
+
+  .s-one .service-btn {
+    min-width: 100px !important;
+    width: 100px !important;
+    max-width: 100px !important;
+    font-size: 12px !important;
+    border: 2px solid black !important;
+    margin: 5px !important;
+  }
+
+  .s-one .service-btn div {
+    display: none !important;
+  }
+
+  .s-one .s-right {
+    width: 90% !important;
+    margin-top: 20px !important;
+  }
+
+  /* SECCION DE FAQS */
+
+  .s-block {
+    width: 90% !important;
+  }
+
+  /* SECCION DE ABOUT */
+
+  .about .first-block {
+    flex-direction: column !important;
+  }
+
+  .about .about-left {
+    min-width: 90% !important;
+  }
+
+  .about .about-right {
+    min-width: 90% !important;
+  }
+
+  .about .field-box {
+    font-size: 10px !important;
+    padding: 15px !important;
+    margin: 10px !important;
+  }
+
+  /* FOOTER */
+
+  .final-cta .subheading {
+    min-width: 80% !important;
+  }
+}

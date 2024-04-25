@@ -1,0 +1,163 @@
+/* CLASES COMUNES */
+
+.section-black {
+  max-width: 100%;
+  height: fit-content;
+  background-color: black;
+  overflow: hidden;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 25px 5px black;
+}
+
+.section-black .heading {
+  width: fit-content;
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-bottom: 20px;
+}
+
+.section-black .subheading {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(189, 189, 189);
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.section-black .text {
+  max-width: 90%;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* CLASES ESPECIFICAS */
+
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .first-block {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid goldenrod;
+}
+
+.about-container .first-block .about-left {
+  max-width: 50%;
+}
+
+/* CSS PARA EL SWIPER */
+
+.about-container .first-block .about-right {
+  width: 45%;
+  min-height: 450px;
+  overflow: hidden;
+  background-color: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow-btn {
+  /* position: absolute; */
+  background: transparent;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+/* .arrow-btn:nth-child(1) {
+  left: -100px;
+}
+
+.arrow-btn:nth-child(2) {
+  right: 100px;
+} */
+
+.swiper-container {
+  width: 80%;
+  height: fit-content;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 10px;
+}
+
+/* CSS PARA EL RESTO DE LOS BLOQUES DE ABOUT */
+
+.about-container .second-block {
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid goldenrod;
+}
+
+.about-container .second-block .fields-container {
+  max-width: 100%;
+  height: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .second-block .field-box {
+  width: fit-content;
+  height: fit-content;
+  color: goldenrod;
+  font-size: 12px;
+  /* font-weight: bold; */
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid goldenrod;
+  border-radius: 50px;
+}
+
+.about-container .second-block .field-box:hover {
+  background-color: goldenrod;
+  color: black;
+  box-shadow: 2px 2px 65px 3px goldenrod;
+}

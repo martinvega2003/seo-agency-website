@@ -1,0 +1,52 @@
+/* CLASES COMUNES */
+
+.section-gold {
+  max-width: 100%;
+  min-height: fit-content;
+  background-color: goldenrod;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 25px 5px goldenrod;
+}
+
+.heading {
+  max-width: fit-content;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.subheading {
+  max-width: 80%;
+  text-align: center;
+  font-size: 22px;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.final-cta-btn {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  margin-bottom: 30px;
+  padding: 30px 110px;
+  font-size: 16px;
+  font-weight: bold;
+  color: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 50px;
+}
+
+.final-cta-btn:hover {
+  background: transparent;
+  color: black;
+}

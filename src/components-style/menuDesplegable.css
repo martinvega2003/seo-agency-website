@@ -1,0 +1,179 @@
+/* MENU DESPLEGABLE */
+
+.cta-menu {
+  position: fixed;
+  top: -110%;
+  z-index: 45;
+  width: 100%;
+  height: fit-content;
+  /* min-height: 100vh; */
+  overflow: scroll;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-menu.open {
+  top: 0px;
+}
+
+.close-btn {
+  position: absolute;
+  z-index: 20;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-menu h2 {
+  max-width: 60%;
+  font-size: 28px;
+  text-align: center;
+  color: goldenrod;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-menu h4 {
+  max-width: 80%;
+  text-align: center;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.cta-menu .form {
+  width: 50%;
+  height: fit-content;
+  background: transparent;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.cta-menu .form span {
+  text-align: left;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.cta-menu .form input {
+  width: 100%;
+  height: fit-content;
+  background: transparent;
+  padding: 20px 10px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 3px solid white;
+  outline: none;
+}
+
+.cta-menu .form input::placeholder {
+  color: grey;
+  font-size: 20px;
+}
+
+.cta-menu .form .btn-container {
+  min-width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-menu .btn-container button:nth-child(1) {
+  min-width: 48%;
+  height: fit-content;
+  background-color: goldenrod;
+  color: black;
+  font-size: 18px;
+  padding: 20px 10px;
+  border: 3px solid goldenrod;
+}
+
+.cta-menu .btn-container button:nth-child(1):hover {
+  background-color: black;
+  color: white;
+}
+
+.cta-menu .btn-container button:nth-child(2) {
+  min-width: 48%;
+  height: fit-content;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  padding: 20px 10px;
+  border: 3px solid white;
+}
+
+.cta-menu .btn-container button:nth-child(2):hover {
+  background-color: goldenrod;
+  color: black;
+  border-color: goldenrod;
+}
+
+/* HERO BOOKED CALL MESSAGE */
+
+.booked-msg {
+  position: fixed;
+  top: 100px;
+  z-index: 500;
+  width: 80%;
+  height: 80vh;
+  background-color: black;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 5px 12px rgb(58, 58, 58);
+}
+
+.booked-msg.show {
+  display: flex;
+}
+
+.booked-msg.show p {
+  width: fit-content;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.booked-msg.show p span {
+  font-size: 32px;
+  font-weight: bold;
+  color: goldenrod;
+}
+
+.booked-msg.show button {
+  width: 100px;
+  height: fit-content;
+  background: transparent;
+  color: goldenrod;
+  font-size: 18px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 50px;
+}

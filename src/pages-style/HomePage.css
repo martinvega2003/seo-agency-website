@@ -1,0 +1,77 @@
+/* CSS STYLING PARA LA SECCION DEL HEADER STICKY ------------ */
+
+.header-sticky {
+  position: fixed;
+  z-index: 30;
+  width: 100%;
+  min-height: 60px;
+  background-color: white;
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 2px 2px 25px 5px black;
+}
+
+.links {
+  width: 50%;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.link {
+  min-height: 60px;
+  font-size: 18px;
+  color: goldenrod;
+  text-decoration: none;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link:hover {
+  background: linear-gradient(white, goldenrod);
+  color: black;
+}
+
+.email-container {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-container h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-right: 4px;
+}
+
+.email-container span {
+  font-size: 25px;
+  font-weight: bold;
+  color: goldenrod;
+  margin-right: 20px;
+}
+
+/* CSS STYLING PARA LA SECCION DEL FOOTER -------------------- */
+
+.footer {
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 15px;
+  color: white;
+}

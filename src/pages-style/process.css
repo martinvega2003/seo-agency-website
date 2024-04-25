@@ -1,0 +1,130 @@
+.section-white {
+  max-width: 100%;
+  height: fit-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 25px 5px black;
+}
+
+.section-white .heading {
+  max-width: 50%;
+  text-align: left;
+  color: black;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-white .subheading {
+  max-width: 60%;
+  text-align: left;
+  color: goldenrod;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.section-white .text {
+  max-width: 90%;
+  text-align: left;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* CLASES ESPECIFICAS */
+
+.s-two .s-container {
+  max-width: 100%;
+  height: fit-content;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.s-two .img-container {
+  width: 100%;
+  height: fit-content;
+  margin-top: -220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-two .img-container img {
+  width: 70%;
+  height: auto;
+}
+
+.s-two .btn-container {
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: -3px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.s-two .s-btn {
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  font-size: 18px;
+  color: black;
+  padding: 20px 15px;
+  border: none;
+}
+
+.s-two .s-btn:nth-child(2) {
+  margin-left: -3px;
+}
+
+.s-two .s-btn:nth-child(3) {
+  margin-left: -3px;
+}
+
+.s-two .s-btn.active {
+  position: relative;
+  z-index: 2;
+  color: goldenrod;
+  border: 3px solid goldenrod;
+  border-bottom: 3px solid white;
+}
+
+.s-two .s-info-container {
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  padding: 40px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid goldenrod;
+}
+
+.s-two .s-info-container img {
+  height: 90%;
+  width: auto;
+  margin-right: 30px;
+}
+
+.s-two .s-info-container .text-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.s-two .text-container .heading {
+  font-size: 30px;
+}
+
+.s-two .text-container .text {
+  text-align: left;
+}
